@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PA2CS.iml" filepath="$PROJECT_DIR$/.idea/PA2CS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/UnicsMath-frontend.iml" filepath="$PROJECT_DIR$/.idea/UnicsMath-frontend.iml" />
     </modules>
   </component>
 </project>

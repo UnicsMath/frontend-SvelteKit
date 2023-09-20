@@ -5,12 +5,13 @@ export const actions = {
 		const data = await request.formData();
 
 		const dataToSend = {
+			Username: data.get('username'),
 			Email: data.get('email'),
 			Password: data.get('password')
 		};
 
 		try {
-			const response = await fetch('http://localhost:5086/Login', {
+			const response = await fetch('http://localhost:5247/Register', {
 				method: 'POST',
 				headers: {
 					'Content-Type': 'application/json'
